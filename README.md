@@ -1,4 +1,24 @@
-# test-task-quadro
+# Fractions calculator & Websockets test task
+
+[Direc link >>](https://katerren.github.io/fractions-websockets/)
+
+Project created with vue-cli.
+Libraries used: 
+- [fractions.js](https://www.npmjs.com/package/fractions) - for basic operations with fractions
+- [normalize-scss](https://www.npmjs.com/package/normalize-scss) - to drop all preset styles in browsers
+- [loader](https://loading.io/css/) - to visualize beautiful css loader
+
+## Fraction calculator description 
+[link](https://katerren.github.io/fractions-websockets/fractions)
+- calculates fractions considering operator priority
+- you can calculate only numbers
+- denominator can't be a zero
+
+## WebSockets description
+[link](https://katerren.github.io/fractions-websockets/websocket)
+- test task wich connects to [ws://echo.websocket.org](http://websocket.org/echo.html)
+- implemented basic functionality
+- loading comments -> delete comments -> open/close connection
 
 ## Project setup
 ```
@@ -13,16 +33,6 @@ npm run serve
 ### Compiles and minifies for production
 ```
 npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
 ```
 
 ### Customize configuration
