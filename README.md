@@ -9,13 +9,11 @@ Libraries used:
 - [loader](https://loading.io/css/) - to visualize beautiful css loader
 
 ## Fraction calculator description 
-[link](https://katerren.github.io/fractions-websockets/fractions)
 - calculates fractions considering operator priority
 - you can calculate only numbers
 - denominator can't be a zero
 
 ## WebSockets description
-[link](https://katerren.github.io/fractions-websockets/websocket)
 - test task wich connects to [ws://echo.websocket.org](http://websocket.org/echo.html)
 - implemented basic functionality
 - loading comments -> delete comments -> open/close connection
