@@ -1,6 +1,6 @@
 # Fractions calculator & Websockets test task
 
-[Direc link >>](https://katerren.github.io/fractions-websockets/)
+[Direct link >>](https://katerren.github.io/fractions-websockets/)
 
 Project created with vue-cli.
 Libraries used: 
@@ -10,7 +10,7 @@ Libraries used:
 
 ## Fraction calculator description 
 - calculates fractions considering operator priority
-- you can calculate only numbers
+- you can enter only numbers
 - denominator can't be a zero
 
 ## WebSockets description
@@ -32,6 +32,3 @@ npm run serve
 ```
 npm run build
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
