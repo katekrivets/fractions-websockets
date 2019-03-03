@@ -1,0 +1,82 @@
+$lightgray: #efefef;
+$white: #ffffff;
+$fraction-heading: #c5dd5ad8;
+$fraction-button: #c4e6dcd8;
+$comment-button: #eccff7;
+$websocket-heading: #92fff0;
+$button-connect: $fraction-heading;
+$button-disconnect: #f8be71;
+$error: #971919;
+$text-color: #2c3e50;
+$shadow-blurred: 2px 2px 3px #cfcfcfb7;
+$shadow: 4px 4px #e0e0e0c5;
+$font: 'Avenir', Helvetica, Arial, sans-serif;
+
+// $color: #ce201a;
+
+@mixin button($background, $width, $height) {
+    .button {
+        background: $background;
+        width: $width;
+        height: $height;
+        padding: 10px 15px;
+        border: none;
+        box-shadow: $shadow;
+        font-family: $font;
+        font-weight: 600;
+        transition: transform 200ms linear, box-shadow 200ms ease-in;
+
+        &:hover {
+            box-shadow: 0 0 transparent;
+            transform: translate(3px, 3px);
+        }
+        &:focus {
+            outline: none;
+        }
+    }
+}
+
+@mixin loader {
+    .loader {
+        display: inline-block;
+        position: relative;
+        width: 64px;
+        height: 300px;
+        padding: 200px;
+
+        div {
+            box-sizing: border-box;
+            display: block;
+            position: absolute;
+            width: 51px;
+            height: 51px;
+            margin: 6px;
+            border: 6px solid #fff;
+            border-radius: 50%;
+            animation: loader 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+            border-color: #fff transparent transparent transparent;
+
+            &:nth-child(1) {
+                animation-delay: -0.45s;
+            }
+
+            &:nth-child(2) {
+                animation-delay: -0.3s;
+            }
+
+            &::nth-child(3) {
+                animation-delay: -0.15s;
+            }
+        }
+    }
+
+    @keyframes loader {
+        0% {
+            transform: rotate(0deg);
+        }
+
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+}
