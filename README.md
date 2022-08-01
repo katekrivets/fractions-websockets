@@ -1,6 +1,6 @@
 # Fractions calculator & Websockets test task
 
-[Direct link >>](https://katerren.github.io/fractions-websockets/)
+[Direct link >>](https://katekrivets.github.io/fractions-websockets/)
 
 Project created with vue-cli.
 Libraries used: 
